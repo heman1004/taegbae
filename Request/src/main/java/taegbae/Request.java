@@ -26,6 +26,10 @@ public class Request {
 
         taegbae.external.Payment payment = new taegbae.external.Payment();
         // mappings goes here
+        payment.setRequestId(this.getId());
+        payment.setCustomerId(this.getCustomerId());
+        payment.setStatus("Payment Completed");
+
         RequestApplication.applicationContext.getBean(taegbae.external.PaymentService.class)
             .doPay(payment);
 

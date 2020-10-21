@@ -14,11 +14,11 @@ public class Paid extends AbstractEvent {
     public void setId(Long id) {
         this.id = id;
     }
-    public Long getCustomerId() {
+    public Long getRequestId() {
         return requestId;
     }
 
-    public void setCustomerId(Long requestId) {
+    public void setRequestId(Long requestId) {
         this.requestId = requestId;
     }
     public Long getCustomerId() {
