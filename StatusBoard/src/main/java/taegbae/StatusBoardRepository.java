@@ -8,10 +8,4 @@ import java.util.List;
 public interface StatusBoardRepository extends CrudRepository<StatusBoard, Long> {
 
     List<StatusBoard> findByRequstId(Long requstId);
-    List<StatusBoard> findByRequstId(Long requstId);
-    List<StatusBoard> findByRequstId(Long requstId);
-    List<StatusBoard> findByRequstId(Long requstId);
-    List<StatusBoard> findByRequstId(Long requstId);
-    List<StatusBoard> findByRequstId(Long requstId);
-
 }

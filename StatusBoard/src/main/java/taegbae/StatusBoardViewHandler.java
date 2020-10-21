@@ -61,7 +61,7 @@ public class StatusBoardViewHandler {
                 for(StatusBoard statusBoard : statusBoardList){
                     // view 객체에 이벤트의 eventDirectValue 를 set 함
                     statusBoard.setStatus(paid.getStatus());
-                    statusBoard.setDoDt(paid.getRegDate());
+//                    statusBoard.setDoDt(paid.getRegDate());
                     // view 레파지 토리에 save
                     statusBoardRepository.save(statusBoard);
                 }
@@ -79,7 +79,7 @@ public class StatusBoardViewHandler {
                 for(StatusBoard statusBoard : statusBoardList){
                     // view 객체에 이벤트의 eventDirectValue 를 set 함
                     statusBoard.setStatus(paycanceld.getStatus());
-                    statusBoard.setDoDt(paycanceld.getRegDate());
+//                    statusBoard.setDoDt(paycanceld.getRegDate());
                     // view 레파지 토리에 save
                     statusBoardRepository.save(statusBoard);
                 }
@@ -97,7 +97,7 @@ public class StatusBoardViewHandler {
                 for(StatusBoard statusBoard : statusBoardList){
                     // view 객체에 이벤트의 eventDirectValue 를 set 함
                     statusBoard.setStatus(checked.getStatus());
-                    statusBoard.setDoDt(checked.getDoDt());
+//                    statusBoard.setDoDt(checked.getDoDt());
                     // view 레파지 토리에 save
                     statusBoardRepository.save(statusBoard);
                 }
@@ -115,7 +115,7 @@ public class StatusBoardViewHandler {
                 for(StatusBoard statusBoard : statusBoardList){
                     // view 객체에 이벤트의 eventDirectValue 를 set 함
                     statusBoard.setStatus(picked.getStatus());
-                    statusBoard.setDoDt(picked.getDoDt());
+//                    statusBoard.setDoDt(picked.getDoDt());
                     // view 레파지 토리에 save
                     statusBoardRepository.save(statusBoard);
                 }
@@ -133,7 +133,7 @@ public class StatusBoardViewHandler {
                 for(StatusBoard statusBoard : statusBoardList){
                     // view 객체에 이벤트의 eventDirectValue 를 set 함
                     statusBoard.setStatus(finished.getStatus());
-                    statusBoard.setDoDt(finished.getDoDt());
+//                    statusBoard.setDoDt(finished.getDoDt());
                     // view 레파지 토리에 save
                     statusBoardRepository.save(statusBoard);
                 }
